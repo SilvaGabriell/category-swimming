@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {margin: 0; padding: 0; border: none; box-sizing: border-box; font-family: Montserrat; font-weight: 800;}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    background-image: url(../img/wallpaper-swimming.jpg);
+    background-position: 10%;
+    background-repeat: no-repeat;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0.5px 0.8px 7px   rgb(36, 85, 219);
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    height: 300px;
+    width: 400px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 28px;
+    color: blue;
+}
+.input-competitor input
+{
+    margin: 10px 50px 0px 50px;
+    padding: 8px;
+    height: 40px;
+    width: 300px;
+    background-color:rgb(214, 212, 212);
+    border-radius: 6px;
+}
+.send-data button
+{
+    margin: 30px 50px 0px 50px;
+    height: 40px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+.result
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px dotted blue;
+}
