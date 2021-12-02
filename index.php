@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../categoria-natacao/public/styles/style.css">
+    <link rel="stylesheet" href="../category-swimming/public/styles/style.css">
     <title>Competição - Natação</title>
 </head>
 <body>
@@ -15,11 +15,11 @@
                 
                 <h2 class="title">Dados Competidor</h2>
 
-                <div class="input-competitor">
+                <div class="name-competitor">
                     <input type="text" name="name" placeholder="nome">
                 </div>
                 
-                <div class="input-competitor">
+                <div class="age-competitor">
                     <input type="text" name="age" placeholder="idade">
                 </div>
 

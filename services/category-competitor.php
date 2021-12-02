@@ -2,7 +2,7 @@
 
     function defineCategoryCompetitor(string $name, string $age) : ?string
     {
-        $category[] = "Criança";
+        $category[] = "Infantil";
         $category[] = "Adolescente";
         $category[] = "Adulto";
         $category[] = "Idoso";
@@ -33,17 +33,12 @@
                     return null;
                 break;
 
-                case ($age == null):
-                    setMessageSucess("Informe os dados do competidor");
-                    return null;
-                break;
-
                 default:
-                    setMessageSucess("Categoria não existe, entre em contato com Administrador.");
+                    setMessageSucess("Categoria inexistente, contacte o Administrador!");
                     return null;
                 break;
             }
-            return true;
+                 return true;
         }
         else
         {

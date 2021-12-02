@@ -1,5 +1,4 @@
 <?php
-
     function nameValidate(string $name) : bool
     {
         if(empty($name))
@@ -27,13 +26,12 @@
             setMessageError('A idade não pode ser vazio, por favor preencha-o novamente');
             return false;
         }
-
-        if(!is_numeric($age))
+        
+        else if(!is_numeric($age))
         {
-            setMessageError('Informe um número para age');
+            setMessageError('Informe um número para idade');
             return false;
         }
-            return true;
+        return true;
     }
-
 ?>
